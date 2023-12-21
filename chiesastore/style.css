@@ -57,7 +57,7 @@ nav ul li:hover a{
   transition: 0.3s;
 }
 
-@media (max-width: 999px) {
+@media (max-width: 428px) {
   body {
     overflow-x: hidden;
   }
@@ -131,32 +131,6 @@ nav ul li:hover a{
     align-items: center;
     justify-content: center;
 }
-/*
-.main h4{
-    font-size: 48px;
-    color: #fff;
-    font-weight: 600;
-}
-
-
-.main h4 span{
-    color: #ffb742;
-    text-decoration: underline;
-}
-
-.main p.title{
-    font-size: 44px;
-    font-weight: 600;
-    color: #fff;
-    margin-top: 8px;
-}
-
-.main p.subtitle{
-    font-size: 16px;
-    color: #ccc;
-    margin-top: 20px;
-}
-*/
 
 .main img{
     width: 50vh;
