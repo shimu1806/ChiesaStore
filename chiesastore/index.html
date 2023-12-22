@@ -1,218 +1,130 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Samuel Brito</title>
-    <link rel="stylesheet" href="./css/extends.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800&display=swap" 
-    rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" type="imagex/png" href="./assets/icon.ico">
+    <title>Chiesa Store</title>
 </head>
+
 <body>
-    <!-- NavBar -->
-    <nav class="navbar">
-        <div class="navbar_content" max-width mb-0>
-            <a href="">
-                <img src="/assets/webpage.ico" width="46vh" alt="Samuel">
-            </a>
-            <ul class="navbar_links">
-                <li><a href="#header">home</a></li>
-                <li><a href="#about">about</a></li>
-                <li><a href="#skills">skills</a></li>
-                <li><a href="#projects">projects</a></li>
-                <li><a href="#footer">contact</a></li>
-            </ul>
-        </div>
-
-    </nav>
-
-    <!-- Header -->
-
-    <header id="header" class="max-width">
-        <div class="header_left">
-            <h1>Welcome to my Portfolio</h1>
-            <p>My name is Sameul, and i'm a full-stack developer, graphic designer, and web designer based in São Paulo, Brazil. <b>Open to work</b>
-            </p>
-            <a href="#about" class="btn btn-primary">About me</a>
-        </div>
-        <div class="header_right">
-            <div class="header_image">
-                <img src="assets/profile.jpeg" alt="profile" class="profile">
+    <header>
+        <nav>
+            <a class="logo" href="/index.html"><img src="assets/header.png" alt="" style="width: 8vh;"></a>
+                <div class="mobile-menu">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
             </div>
-        </div>
-
+            <ul class="nav-list">
+                <li id="home"><a href="#">Início</a></li>
+                <li id="gallery"><a href="https://www.instagram.com/chiesastore.shop/">Galeria</a></li>
+                <li id="products"><a href="#">Produtos</a></li>
+                <li id="contact"><a href="https://api.whatsapp.com/message/UCBGKBLKLONRH1?autoload=1&app_absent=0">Contato</a></li>
+                <li id="about"><a href="#">Sobre</a></li>
+                <li id="footer"><a href="#">Suporte</a></li>
+            </ul>
+            <div></div>
+        </nav>
     </header>
-
-    <!-- About -->
-
-    <section id="about" class="about max-width">
-        <div class="about_left">
-            <h2 class="secondary-title">About me</h2>
-            <p>
-                Conect with me in my social medias
-            </p>
-            <ul>
-                <li>
-                    <a href="https://linkedin.com/in/samuel-pereira-brito-8259651b1/"><img src="assets/linkedin.svg" alt="linkedin"> LinkedIn</li>
-                
-                <li>
-                    <a href="https://github.com/shimu1806"><img src="assets/github.svg" alt="github"> GitHub</a></li>
-                
-                <li>
-                    <a href="https://www.instagram.com/shimu_ftt99/"><img src="assets/instagram.svg" alt="instagram"> Instagram</a>
-                
-            </ul>
-
-        </div>
-        <div class="about_right">
-            <h3 class="tertiary-title" mb-n>
-                FullStack Developer, Graphic Designer & Web Designer 
-            </h3>
-            <p><br>
-                FullStack Developer with experience web development. 
-                Specialized in dynamic dashboards, big data optimization, and visually appealing 
-                chart creation using XML and PowerBI. Proficient in Adobe suite for publication, photo editing, and marketing. 
-                Committed to creating efficient and robust solutions and maintaining website aesthetics aligned with brand standards.
-            </p>
-
-        </div>
-
-    </section>
+    <main></main>
+    <script src="mobile-navbar.js"></script>
     
-    <!-- skills -->
+    <div id="home" class="main">
+        <img src="assets/part1.png" alt="">
+        <img src="assets/part2.png" alt="">
+    </div>
 
-    <section id="skills" class="skills">
-        <div class="skills_content" max-widht>
-            <h2 class="tertiary-title">My toolbox</h2>
-            <p class="description">
-                I work with several tools, but my strengths are:
-            </p>
-            <ul>
-                <li class="skills_item">
-                    <div class="image-container">
-                        <img src="/assets/code-slash.svg" alt="Desenvolvimento Web">
-                    </div>
-                    <h3>Web development</h3>
-                    <p>Experience in responsive fullStack development with a focus on
-                        modern technologies.</p>
-                </li>
-                <li class="skills_item">
-                    <div class="image-container">
-                        <img src="/assets/palette-fill.svg" alt="Desing">
-                    </div>
-                    <h3>Desinger</h3>
-                    <p>Ability to idealize, create and develop a unique visual identity
-                        for your work.</p>
-                </li>
-                <li class="skills_item">
-                    <div class="image-container">
-                        <img src="/assets/plugin.svg" alt="software backend">
-                    </div>
-                    <h3>Software Backend</h3>
-                    <p>Knowledge of database and development in Python, PHP and C++</p>
-                </li>
-            </ul>
-            </ul>
-        </div>
-    </section>
-
-     <!-- projetos -->
-
-     <section id="projects" class="projects max-widht ">
-        <div class="projects_content">
-            <h2 class="secondary-title">Featured projects</h2>
-            <p>
-                Here you can check public works that I published
-            </p>
-        </div>
-        <ul>
-            <li class="chiesaStore">
-                <div class="image">
-                <img src="assets/chiesaStore.png" alt="chiesaStore" />
+    <div class="guarantee">
+        <div class="item">
+            <div class="icon">
+                <i class='bx bx-check-shield'></i>
             </div>
-                    <div class="projects_info">
-                        <h3 class="tertiary-title">Chiesa Store &rAarr;</h3>
-                            <p>Ericson Chiesa is a young man passionate about action figures who creates
-                                personalized and exclusive luminaires. 
-                                <br>
-                                Each piece is carefully crafted, bringing to life not only the characters,
-                                but also lighting up spaces with a unique atmosphere. My art is a fusion of
-                                nostalgia and innovation, a celebration of childhood that shines in every corner
-                                illuminated by my creations</p>
-                                <a href="https://www.chiesastore.shop">Click Here!!</a>
-                        </div>
-            </li>
-            <li class="enviaarq">
-                <div class="image">
-                    <img src="assets/enviaarq.jpeg" alt="enviaarq"></div>
-                    <div class="projects_info">
-                        <h3 class="tertiary-title">Inclusion and consultation of files on the WEB &rAarr;</h3>
-                            <p>This code, developed in PHP, is responsible for uploading
-                                file on web with database migration,
-                                allowing the site owner to include and view files.
-                                </p>
-                                <a href="https://github.com/shimu1806/Upload/blob/main/index.php">Click Here!!</a>
-                        </div>
-            </li>
-            <li class="binary-to-decimal">
-                <div class="image">
-                    <img src="assets/Binary-to-Decimal.jpeg" alt="binary-to-decimal"></div>
-                    <div class="projects_info">
-                        <h3 class="tertiary-title">
-                            Binary to decimal number converter &rAarr;
-                            </h3>
-                            <p>
-                                This code, developed in Python, is a mathematical tool that converts binary numbers in a decimal number.
-                                </p>
-                                <a href="https://github.com/shimu1806/pythonProjetinhos/blob/main/CalculadoraSimples.py">Click Here!!</a>
-                        </div>
-            </li>
-            <li class="relogioDigital">
-                <div class="image">
-                    <img src="assets/relogioDigital.jpeg" alt="relogioDigital"></div>
-                    <div class="projects_info">
-                        <h3 class="tertiary-title">Digital watch &rAarr;</h3>
-                            <p>UUsing the Tkinter extension, I developed a digital clock
-                                which shows the time, date and week
-                                </p>
-                                <a href="https://github.com/shimu1806/pythonProjetinhos/blob/main/Relogio%20Digital.py">Click Here!!</a>
-                        </div>
-            </li>
-        </ul>
-     </section>
-
-        <!-- projetos -->
-
-     <section id="footer">
-        <div class="footer_content max-widht mb-0">
-            <h2>Lets talk?</h2>
-            <p class="mb-m">
-                I'm excited to bring all my energy and skills to your projects and business. Let's create something amazing together!
-            </p>
-
-            <div class="footer_contact mb-m">
-                <span class="mb-m"><a href="mailto:samuelbrito190@gmail.com?subject=formulario de contato" > Contact me</a></span>
+            <div id="gallery" class="info">
+                <h3>CONTEÚDO</h3>
+                <p>EXCLUSIVO</p>
             </div>
-            <ul class="mb-1">
-                <li>
-                    <a href="https://linkedin.com/in/samuel-pereira-brito-8259651b1/"><img src="assets/linkedin.svg" alt="linkedin"> LinkedIn</li>
-                
-                <li>
-                    <a href="https://github.com/shimu1806"><img src="assets/github.svg" alt="github"> GitHub</a></li>
-                
-                <li>
-                    <a href="https://www.instagram.com/shimu_ftt99/"><img src="assets/instagram.svg" alt="instagram"> Instagram</a>
-                
-            </ul>
-            
+            <i class='bx bx-chevron-right'></i>
         </div>
-        
-        <p class="footer_copyright">© Samuel Brito. All rights reserved</p>
+        <div class="item">
+            <div class="icon">
+                <i class='bx bx-check-circle'></i>
+            </div>
+            <div class="info">
+                <h3>FENS JUNDIAÍ</h3>
+                <p>EXPOSITOR</p>
+            </div>
+            <i class='bx bx-chevron-right'></i>
+        </div>
+        <div class="item">
+            <div class="icon">
+                <i class='bx bx-laugh'></i>
+            </div>
+            <div id="products" class="info">
+                <h3>PRODUTOS</h3>
+                <p>FEITOS A MÃO</p>
+            </div>
+            <i class='bx bx-chevron-right'></i>
+        </div>
+    </div>
 
-     </section>
-    
-    <script src="scripts/index.js"></script>
+    <h5 class="seprator">ERICSON CHIESA</h5>
+
+    <div id="about" class="about">
+        <img src="assets/ericson.png">
+        <div class="info">
+            <h3>CEO. ERICSON CHIESA</h3>
+            <p>Sou apaixonado por action figures, encontrei uma maneira única de expressar minha criatividade. Crio deslumbrantes luminárias. Cada peça é cuidadosamente trabalhada, dando vida não apenas aos personagens, mas também iluminando espaços com uma atmosfera única. Minha arte é uma fusão de nostalgia e inovação, uma celebração da infância que brilha em cada canto iluminado por minhas criações
+            </p>
+            <button class="hire-btn">
+                <a href="https://www.instagram.com/chiesastore.shop/" target="_blank" style="text-decoration: none;">INSTAGRAM</a>
+            </button>
+        </div>
+    </div>
+
+
+    <footer>
+        <div id="contact" class="start">
+            <h3>SOB MEDIDA</h3>
+            <p>Gostaria de ter uma arte perfeita para seu espaço?.</p>
+            <a href="https://api.whatsapp.com/message/UCBGKBLKLONRH1?autoload=1&app_absent=0"><button>CONVERSAR</button></a>
+        </div>
+
+        <div class="cols">
+            <div class="about-col">
+                <h3>CHIESA STORE.</h3>  
+                <p>de Ericson CHIESA</p>
+            </div>
+
+            <div class="links-col">
+                <h4>Links</h4>
+                <a href="#">Início</a>
+                <a href="https://www.instagram.com/chiesastore.shop/">Galeria</a>
+                <a href="#">Produtos</a>
+                <a href="https://api.whatsapp.com/message/UCBGKBLKLONRH1?autoload=1&app_absent=0">Contato</a>
+                <a href="#">Sobre</a>
+                <a href="#">Suporte</a>
+            </div>
+
+            <div class="links-col">
+                <h4>Social</h4>
+                <a href="https://www.instagram.com/chiesastore.shop/">Instagram</a>
+          <!--  <a href="#">Linkedin</a>
+                <a href="#">Youtube</a> -->
+                <a href="https://www.tiktok.com/@chiesastore.shop?_t=8iGaf0Nx4ju&_r=1">TIK TOK</a>
+            </div>
+
+            <div id="footer" class="img-footer">
+                <img src="assets/footer.png" alt="" style="width: 200px; height: auto;">
+            </div>
+
+        </div>
+
+    </footer>
+
 </body>
+
 </html>
